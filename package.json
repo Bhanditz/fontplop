@@ -10,7 +10,9 @@
     "make": "electron-forge make",
     "lint": "tslint --project tsconfig.json --type-check --force --fix",
     "publish": "electron-forge publish",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "contributors": [
@@ -78,7 +80,8 @@
     "replace-ext": "^1.0.0",
     "rimraf": "^2.6.2",
     "tslib": "^1.7.1",
-    "ttf2woff2": "^2.0.3"
+    "ttf2woff2": "^2.0.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10",
@@ -112,5 +115,6 @@
       "jsx",
       "json"
     ]
-  }
+  },
+  "snyk": true
 }
