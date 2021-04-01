@@ -69,7 +69,7 @@
     "electron-compile": "^6.4.2",
     "electron-devtools-installer": "^2.2.0",
     "electron-json-storage": "^3.2.0",
-    "fonteditor-core": "0.0.37",
+    "fonteditor-core": "2.1.6",
     "github-version-checker": "github:matthewgonzalez/github-version-checker",
     "react": "^16.0.0",
     "react-hot-loader": "^3.0.0-beta.7",
