@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "electron-compile": "^6.4.2",
-    "electron-devtools-installer": "^2.2.0",
+    "electron-devtools-installer": "^4.0.0",
     "electron-json-storage": "^3.2.0",
     "fonteditor-core": "0.0.37",
     "github-version-checker": "github:matthewgonzalez/github-version-checker",
